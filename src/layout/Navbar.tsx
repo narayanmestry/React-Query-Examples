@@ -16,10 +16,10 @@ function Navbar() {
       </NavLink>
       {" | "}
       <NavLink
-        to="/about"
+        to="/add-user"
         style={({ isActive }) => (isActive ? activeStyle : undefined)}
       >
-        About
+        Add User
       </NavLink>
     </nav>
   );
